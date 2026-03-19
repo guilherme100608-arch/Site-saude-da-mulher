@@ -1,15 +1,85 @@
-body {
-    background-color: pink;
+header{
+    background: linear-gradient(135deg, #d94f8a, #f58bb3);
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+
+.hero {
+  min-height: 40vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  padding: 20px 25%;
+  background: linear-gradient(135deg, #f8c8dc, #f4a6c1);
+}
+
+.hero-content {
+  background: rgba(255, 255, 255, 0.35);
+  padding: 100px;
+  border-radius: 20px;
+  max-width: 1000px;
+  }
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color: #d94f8a;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.section-title {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  margin-top: 60px;
+}
+
+.about {
+  background-color: #fff0f6;
+  padding: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.tips-list {
+  display: grid;
+  gap: 15px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.tip {
+  background-color: white;
+  padding: 18px;
+  margin: 15px;
+  border-left: 6px solid #d94f8a;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+
 h1 {
-    background-color: palevioletred;
     color: white;
     margin-top: 0px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    text-align: center;
 }
 
 .main-banner {
-    width: 100%;
+    width: 80%;
     height: 200px;
 }
 .link-formulario {
@@ -32,9 +102,13 @@ h2 {
     color: white;
 }
 
-.fonts {
+.contato {
     background-color: palevioletred;
+    width: 30%;
 }
+
+
+
 
 
 
