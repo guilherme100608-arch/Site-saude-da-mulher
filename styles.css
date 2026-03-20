@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(135deg, #f8c8dc, #f4a6c1);
+}
+
 header{
     background: linear-gradient(135deg, #d94f8a, #f58bb3);
     color: white;
@@ -91,6 +95,8 @@ button {
     border-color: palevioletred;
     margin-bottom: 10px;
     width: 24%;
+    border-radius: 20px;
+    display: inline;
 }
 
 a {
@@ -100,6 +106,7 @@ a {
 h2 {
     background-color: palevioletred;
     color: white;
+    border-radius: 20px;
 }
 
 .contato {
