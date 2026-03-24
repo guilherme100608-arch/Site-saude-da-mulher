@@ -15,32 +15,6 @@ body {
     padding: 20px;
 }
 
-.contact-container {
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-}
-
-.profile-pic {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 2px solid #30363d;
-    margin-bottom: 15px;
-}
-
-.profile h1 {
-    font-size: 24px;
-    color: #f0f6fc;
-    margin-bottom: 5px;
-}
-
-.profile p {
-    font-size: 14px;
-    color: #8b949e;
-    margin-bottom: 30px;
-}
-
 .links {
     display: flex;
     flex-direction: column;
@@ -60,9 +34,6 @@ body {
     border: 1px solid #30363d;
     font-weight: 600;
     transition: all 0.2s ease;
-}
-.link-button i {
-    font-size: 18px;
 }
 
 .primeira_info{
