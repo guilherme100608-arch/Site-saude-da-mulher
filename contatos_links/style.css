@@ -8,7 +8,7 @@
 body {
     background-color: #0d1117;
     color: #c9d1d9;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
