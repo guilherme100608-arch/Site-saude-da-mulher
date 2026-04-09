@@ -1,17 +1,47 @@
+*{
+  margin: 0%;
+}
+
 body {
-  background: linear-gradient(135deg, #f8c8dc, #f4a6c1);
+background-color: white;
 }
 
-header{
-    background: linear-gradient(135deg, #d94f8a, #f58bb3);
-    color: white;
-    padding: 20px 8%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+
+
+.container_menu_header{
+  background: linear-gradient(135deg, #d94f8a, #f58bb3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
+h1{
+  text-decoration: none;
+  align-items: start;
+  color: #002a3f;
+  font-size: 26px;
+  padding: 2vh 9vh;
+
+}
+.menu_header{
+  display: flex;
+  justify-content: flex-end;
+  gap: 26px;
+  padding-left: 10vh;
+  padding-right: 3vh;
+  padding-bottom: 2vh;
+
+}
+
+.menu_header a{
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+
+}
 
 .hero {
   min-height: 40vh;
