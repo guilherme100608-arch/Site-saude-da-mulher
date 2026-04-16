@@ -183,7 +183,8 @@ h1{
   }
 
   .container_menu_header{
-    height: 38vh;
+    padding: 20px 12px;
+    height: auto;
   }
 
   .menu_header{
@@ -194,7 +195,6 @@ h1{
     font-size: 13px;
     padding: 8px 12px;
   }
-
   .container_imagem img{
     height: 60vh;
   }
@@ -202,7 +202,7 @@ h1{
   .container_botao{
     width: 92%;
     padding: 18px;
-    top: 56%;
+    top: 60%;
   }
 
   .container_botao h2{
@@ -232,6 +232,9 @@ h1{
     font-size: 15px;
   }
 
+  .about img{
+    height: 28vh;
+  }
 }
 
 
