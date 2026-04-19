@@ -179,6 +179,63 @@ h1{
   text-align: center;
 }
 
+.container-footer{
+  background: linear-gradient(135deg, #d94f8a, #f58bb3);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  70px 40px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.container-block-left{
+  max-width: 500px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.container-block-left a{
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.container-block-left a:hover{
+  border-bottom: 2px solid white;
+}
+
+.container-block-right{
+  text-align: right;
+  
+}
+
+.container-block-right p{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.container-block-right a{
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.container-block-right a:hover{
+  border-bottom: 2px solid white;
+}
+
 
 
 @media (max-width: 768px){
@@ -238,6 +295,17 @@ h1{
 
   .about img{
     height: 28vh;
+  }
+
+  .container-footer{
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    padding: 30px 20px;
+  }
+
+  .container-block-right{
+    text-align: center;
   }
 }
 
