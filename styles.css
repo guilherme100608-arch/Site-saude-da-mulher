@@ -143,6 +143,7 @@ h1{
   height: 70vh;
   width: 70vh;
 }
+
 .about{
   background-color: white;
   padding: 40px 25px;
@@ -310,7 +311,20 @@ h1{
   }
 
   .about img{
+    height: 24vh;
+  }
+
+  #saude_ginecologica img{
     height: 28vh;
+  }
+
+  #saude_sexual img{
+    height: 28vh;
+  }
+
+  #saude_materna img{
+    height: 24vh;
+    width: 30vh;
   }
 
   .container-footer{
