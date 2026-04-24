@@ -135,6 +135,14 @@ h1{
   height: 50vh;
 }
 
+#saude_sexual img{
+  height: 50vh;
+}
+
+#saude_materna img{
+  height: 70vh;
+  width: 70vh;
+}
 .about{
   background-color: white;
   padding: 40px 25px;
