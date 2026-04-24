@@ -132,16 +132,18 @@ h1{
 }
 
 #saude_ginecologica img{
-  height: 50vh;
+  width: 100%;
+  height: auto;
 }
 
 #saude_sexual img{
-  height: 50vh;
+  width: 100%;
+  height: auto;
 }
 
 #saude_materna img{
-  height: 70vh;
-  width: 70vh;
+  width: 100%;
+  height: auto;
 }
 
 .about{
@@ -315,16 +317,18 @@ h1{
   }
 
   #saude_ginecologica img{
-    height: 28vh;
+    width: 100%;
+    height: auto;
   }
 
   #saude_sexual img{
-    height: 28vh;
+    width: 100%;
+    height: auto;
   }
 
   #saude_materna img{
-    height: 24vh;
-    width: 30vh;
+    width: 100%;
+    height: auto;
   }
 
   .container-footer{
