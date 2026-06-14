@@ -164,6 +164,11 @@ h1{
   height: 40vh;
 }*/
 
+.participe{
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+}
 
 
 .tips-list{
@@ -279,9 +284,10 @@ h1{
 
 .card-info span{
     display: block;
-    font-size: 42px;
+    font-size: 52px;
     font-weight: bold;
-    color: #f58bb3;
+    color: #d94f8a;
+    margin: 10px 0;
 }
 
 .grafico-container{
@@ -319,6 +325,12 @@ h1{
     border-radius: 20px;
     background: linear-gradient(135deg,#d94f8a,#f58bb3);
 }
+
+/* Consultas */
+.consulta1{ width: 50%; }
+.consulta2{ width: 17%; }
+.consulta3{ width: 13%; }
+.consulta4{ width: 20%; }
 
 .sim{
     width: 72%;
